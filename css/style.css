@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  /* font-family: Vend Sans; whyyy is my font not changing???*/
+}
+
+h1, h2{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 400px;
+  margin: 0 auto;
+}
+ul{
+  width: fit-content;
+  border-radius: 5px;
+  margin: 20rem auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+li{
+  width: 8rem;
+  height: 5rem;
+  background-size: cover;
+  margin: 1rem;
+  border: 3px solid black;
+}
+
+
+h1{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(218, 59, 218)
+}
+
+h2{
+  margin-top: 5rem;
+  font-weight:bold;
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.greeting{
+  display:none;
+}
+
+
+#mexico{
+  background-image: url("../img/mexico.jpg");
+}
+
+#jordan{
+  background-image: url("../img/jordan.jpg");
+}
+
+#china{
+  background-image: url("../img/china.png");
+}
+
+#brazil{
+  background-image: url("../img/brazil.jpg");
+}
+
+#india{
+  background-image: url("../img/india.jpg");
+}
+
+#italy{
+  background-image: url("../img/italy.png");
+}
+
+#peru{
+  background-image: url("../img/peru.jpg");
+}
+
